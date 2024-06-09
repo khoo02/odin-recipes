@@ -1,0 +1,13 @@
+* {
+    background-color: bisque;
+}
+
+.title.Odin-Recipes {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.list.recipes {
+    font-size: x-large;
+}
