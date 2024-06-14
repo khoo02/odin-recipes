@@ -1,13 +1,60 @@
 * {
+    /* use border-box for accurate dimensions */
+    box-sizing: border-box;
     background-color: bisque;
+    text-align: center;
 }
 
-.title.Odin-Recipes {
+img {
+    /* center all images */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+ul {
+    /* bullet points stay next to the words */
+    list-style-position: inside;
+}
+
+li {
+    /* default list font size */
+    font-size: 30px;
+}
+
+p {
+    /* default paragraph font size */
+    font-size: 30px;
+}
+
+h1 {
+    /* default title fonts */
     font-family:'Courier New', Courier, monospace;
     font-weight: 700;
     font-size: 70px;
+    text-align: center;
+}
+
+h2 {
+    /* section title fonts */
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.title.Odin-Recipes {
+    /* homepage title */
+    font-size: 70px;
+    text-align: center;
+    background-color: darkred;
+    padding: 50px;
+    margin: 0px auto;
+    color: white;
+    width: 1024px;
 }
 
 .list.recipes {
-    font-size: x-large;
+    /* homepage recipe list */
+    margin: 0px auto;
+    width: 1024px;
 }
